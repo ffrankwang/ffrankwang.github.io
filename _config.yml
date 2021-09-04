@@ -69,9 +69,12 @@ theme: yilia
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/wanghuu/wanghuu.github.io.git
+  repository: https://github.com/ffrankwang/ffrankwang.github.io.git
+  token:
   branch: master
   message: update blog content.
+  name: ffrankwang
+  email: tigerdream52@gmail.com
 admin:
   username: frank
   password_hash: $2a$10$WL9hMfwN282n8EK3WxHQyO5Ji6QrSLleP2y2cYLq.jyIJuTPoj2my
