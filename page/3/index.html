@@ -1,0 +1,721 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=&#34;auto&#34;>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
+  <link rel="icon" href="/img/favicon.png">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="description" content="">
+  <meta name="author" content="Frank Wang">
+  <meta name="keywords" content="">
+  
+  <title>Frank的博客</title>
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_kmeydafke9r.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    var CONFIG = {"hostname":"ffrankwang.github.io","root":"/","version":"1.8.11","typing":{"enable":false,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}},"search_path":"/local-search.xml"};
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+
+<body>
+  <header style="height: 100vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>Frank 的博客</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" data-toggle="modal" data-target="#modalSearch">&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;</a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner" id="banner" parallax=true
+         style="background: url('/img/default.png') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="page-header text-center fade-in-up">
+            <span class="h2" id="subtitle" title="欢迎来到Frank 的博客">
+              
+                欢迎来到Frank 的博客
+              
+            </span>
+
+            
+          </div>
+
+          
+            <div class="scroll-down-bar">
+              <i class="iconfont icon-arrowdown"></i>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      <div class="container nopadding-x-md">
+        <div class="py-5" id="board"
+          style=margin-top:0>
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2016/02/19/%E8%87%AA%E6%8E%A7%E5%8A%9B/" target="_self">
+          自控力
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2016/02/19/%E8%87%AA%E6%8E%A7%E5%8A%9B/" target="_self">
+          
+          
+            
+          
+          
+
+
+书名
+作者
+出版社
+
+
+
+自控力(斯坦福大学很受欢迎的心理学课程)
+凯利•麦格尼格尔 (Kelly McGonigal Ph.D.) (作者), 王岑卉 (译者)
+文化发展出版社(原印刷工业出版社)
+
+
+  
+这是一本斯坦福大学的教授所写的书，来自最受学生欢迎的心理学课程，主要讲了让人怎样学会更好的控制自己，实现人生的目标。本书并不是给你设计一个目标，而是通过实验的方式，让你更好的了解自己，
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2016-02-19 13:10" pubdate>
+              2016-02-19
+            </time>
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E8%AF%BB%E4%B9%A6/">读书</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2016/02/10/direction/" target="_self">
+          direction
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2016/02/10/direction/" target="_self">
+          
+          
+            
+          
+          关于未来的方向选择
+
+刚刚大一的时候，什么都不懂。虽说接触了几年的计算机，但是并没有了解那么多关于计算机行业本身的发展，只是比较熟练的使用电脑而已。就这样，在外人看来这已经是非常也不起的事情了，可是毕竟只是井底之蛙。 我经常拿开汽车的人和造汽车的人来打比方，就算你汽车开的再熟练也不过是个好司机而已，但是造汽车的人可就不一样了，不是你随随便便就能造出一辆汽车的。计算机行业也是这样，直到如今我也没有承
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2016-02-10 08:26" pubdate>
+              2016-02-10
+            </time>
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%9C%AA%E6%9D%A5/">未来</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2015/12/18/Deep/" target="_self">
+          Ocean Deep
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2015/12/18/Deep/" target="_self">
+          
+          
+            
+          
+          岁末深冬，寒风料峭。
+明天英语四六级考试，我多半是要挂掉了，怨我没有好好准备，也并没有什么好可惜的，但终究是会有些遗憾的吧。但愿明年能够考过。这学期所有的课程几乎都结束了，考试也会一门接着一门，紧张复习ing…大学就这样在开学，考试，放假之间循环，然而这循环却不是无止境的，面临着将要结束的时刻，每个人都比较紧张，每个人也都在寻找着自己的将来。 这大概就是所谓的我们的青春。
+喜欢一首歌，叫作Ocea
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2015-12-18 12:38" pubdate>
+              2015-12-18
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2015/09/03/%E5%86%99%E5%9C%A8%E5%A4%A7%E4%B8%89%E4%B9%8B%E5%89%8D%EF%BC%8C%E5%87%BA%E5%8F%91%E5%89%8D%E5%A4%9C%E3%80%82/" target="_self">
+          写在大三之前，出发前夜。
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2015/09/03/%E5%86%99%E5%9C%A8%E5%A4%A7%E4%B8%89%E4%B9%8B%E5%89%8D%EF%BC%8C%E5%87%BA%E5%8F%91%E5%89%8D%E5%A4%9C%E3%80%82/" target="_self">
+          
+          
+            
+          
+          虽然学校离家比较近，但在走之前还是会有点离愁别绪。
+每学期开学都会给自己制定一个计划，算是惯例吧。希望能够借着新的开始给自己点儿目标。
+开学即是大三，突然一下子变老的感觉，面对大一的学弟们朝气蓬勃，而自己却失去了当初的那份热情，变得安份变得现实。我也着实该为自己的将来早做打算了，最害怕的事情就是毕业之后什么都不会，什么都干不了，还没就业就已经失业了。
+我是学计算机专业的，物联网工程，虽是热门产业，
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2015-09-03 12:40" pubdate>
+              2015-09-03
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2015/08/11/%E5%85%AB%E6%9C%88%E7%A7%8B/" target="_self">
+          八月秋
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2015/08/11/%E5%85%AB%E6%9C%88%E7%A7%8B/" target="_self">
+          
+          
+            
+          
+          立秋之后，天气转凉，想起一些旧事。
+一个人在家的日子简直要发霉了，没有人说话，百无聊赖。
+每个暑假都是这样，静静等等待开学的日子。
+开始怀念小学时候，放假都是最欢乐的时光，那时候的夏天，也并不会感觉有多么热，整个夏天都在奔跑，从不疲惫。
+而今的生活，这算是什么日子呢，好像是在盼着时间快点走，毫无意义的生活。
+没有目标，没有力气，对未来迷茫，对现实无奈。
+一直以来都是一个人，怀恋两个人的时光。不知何
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2015-08-11 12:41" pubdate>
+              2015-08-11
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2015/07/03/%E9%85%92%E4%B8%8D%E9%86%89%E4%BA%BA%E4%BA%BA%E8%87%AA%E9%86%89/" target="_self">
+          酒不醉人人自醉
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2015/07/03/%E9%85%92%E4%B8%8D%E9%86%89%E4%BA%BA%E4%BA%BA%E8%87%AA%E9%86%89/" target="_self">
+          
+          
+            
+          
+          今天呢，又是，陪，基友，在操场上，喝酒。
+很开心，真得，比起在大学里无聊的时光，我觉得这才是人生最重要的东西。
+人生能有几个知己呢。真得很开心。喝得也很尽兴。可是FDD还是不如我，喝到最后还是不行了。我们都是互相觉得对方不靠谱，只是大家都醉了而已。这样的感觉很能好，天空只有两颗星星，我觉得是我们两个，这大概是我做的比较疯狂的一件事情了。至少，在我的身边没有人会做这样的事情，没有人能够让我这样的畅爽
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2015-07-03 12:42" pubdate>
+              2015-07-03
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2015/06/12/%E8%B0%88%E8%B0%88%E6%9C%80%E8%BF%91%E7%9A%84%E7%94%9F%E6%B4%BB%E5%90%A7/" target="_self">
+          谈谈最近的生活吧
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2015/06/12/%E8%B0%88%E8%B0%88%E6%9C%80%E8%BF%91%E7%9A%84%E7%94%9F%E6%B4%BB%E5%90%A7/" target="_self">
+          
+          
+            
+          
+          似乎呢，是很久没有写过日志了吧，就连在日记本上写日记的次数也少了呢。而这学期我到底做了些什么呢？为何感觉时间过得这样快，一眨眼之间，开学，上课，复习，考试，放假。之间似乎少了些什么环节。有什么东西被我忘却了呢？
+有时候一直在前进，往往会忘了脚 下的路，开始走错方向，开始步入一个就连自己都不知道的迷途。炎热的夏天让人不由的烦躁，什么事情都不想做，懒懒得躺在床上，一天天就这样过去了。我究竟在忙些什么呢
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2015-06-12 12:43" pubdate>
+              2015-06-12
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2015/04/05/%E5%B5%A9%E5%B1%B1%E4%B9%8B%E8%A1%8C/" target="_self">
+          嵩山之行
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2015/04/05/%E5%B5%A9%E5%B1%B1%E4%B9%8B%E8%A1%8C/" target="_self">
+          
+          
+            
+          
+          昨晚抵达登封，今天一早出发，挺进嵩山。
+嵩山应该是我登上的第一座真正意义上的山，大一时登的那个新郑的始祖山，觉得有点不像山的样子，有点破，也不太高。而嵩山，至少还是五岳之一，果然去了之后，被那种峻峭雄奇给折服了。满山的青松，放眼望去，一片一片的，连绵不绝。仰望山顶，岩石到处都是，大石头，小石头，路上铺的也是石头。因为我家不在山边住，第一次看到大自然的鬼斧神工，还是很震惊的。
+我们走的是小路，直接绕
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2015-04-05 12:44" pubdate>
+              2015-04-05
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2015/03/18/%E4%B8%80%E6%9C%AC%E4%B9%A6/" target="_self">
+          一本书
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2015/03/18/%E4%B8%80%E6%9C%AC%E4%B9%A6/" target="_self">
+          
+          
+            
+          
+          这大概是在学校的第一篇日志，平日里倒没有什么时间去写。马上至深夜了，趁着笔记本残存的一点电量维持着我不想睡去的梦想。想表达点什么却又不知作何？
+好像来到学校之后自己要做的事情并没有什么实质性的进展，想买的东西倒是买了，也还是算满意，但是自己到底是要做什么呢，我的计划又是要怎样落实呢？渐渐得开始拖延，手头里总是会有做不完的事情，但是却又不想去做。总觉得自己掌控了一切，到头来却是什么也得不到，我不想这
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2015-03-18 12:45" pubdate>
+              2015-03-18
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2015/03/06/2015%E5%B9%B403%E6%9C%8806%E6%97%A5/" target="_self">
+          2015年03月06日
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2015/03/06/2015%E5%B9%B403%E6%9C%8806%E6%97%A5/" target="_self">
+          
+          
+            
+          
+          明天就要开学了。
+原计划今天下午走，由于家里有点事情，就推迟到了明天上午。 无非是多了一天在家的闲散时光罢了。不知为何，反正就是从来没有像这样期待一个新的学期的开始，是在家太麻木了吗，还是我的生活太无聊了？
+阳台上的阳光不是那么热烈，却是照得挺温暖，这样的温度刚刚好。静候着新的生活，心里好像也没有一点波澜。我唯一能做的事情就是让自己安安静静的坐在这里，写写字，听听音乐，打发时间罢了。在网易上发现了
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2015-03-06 12:46" pubdate>
+              2015-03-06
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+
+
+  <nav aria-label="navigation">
+    <span class="pagination" id="pagination">
+      <a class="extend prev" rel="prev" href="/page/2/#board"><i class="iconfont icon-arrowleft"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/#board">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/#board">4</a><a class="extend next" rel="next" href="/page/4/#board"><i class="iconfont icon-arrowright"></i></a>
+    </span>
+  </nav>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    
+      <a id="scroll-top-button" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    
+  </main>
+
+  <footer class="text-center mt-5 py-3">
+  <div class="footer-content">
+     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+  </div>
+  
+
+  
+
+  
+</footer>
+
+
+  <!-- SCRIPTS -->
+  
+  <script  src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" ></script>
+<script  src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+<!-- Plugins -->
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2.0.8/dist/clipboard.min.js" ></script>
+
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 主题的启动项 保持在最底部 -->
+<script  src="/js/boot.js" ></script>
+
+
+</body>
+</html>

@@ -1,0 +1,536 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=&#34;auto&#34;>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
+  <link rel="icon" href="/img/favicon.png">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="description" content="">
+  <meta name="author" content="Frank Wang">
+  <meta name="keywords" content="">
+  
+  <title>Frank的博客</title>
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_kmeydafke9r.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    var CONFIG = {"hostname":"ffrankwang.github.io","root":"/","version":"1.8.11","typing":{"enable":false,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}},"search_path":"/local-search.xml"};
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+
+<body>
+  <header style="height: 100vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>Frank 的博客</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" data-toggle="modal" data-target="#modalSearch">&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;</a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner" id="banner" parallax=true
+         style="background: url('/img/default.png') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="page-header text-center fade-in-up">
+            <span class="h2" id="subtitle" title="欢迎来到Frank 的博客">
+              
+                欢迎来到Frank 的博客
+              
+            </span>
+
+            
+          </div>
+
+          
+            <div class="scroll-down-bar">
+              <i class="iconfont icon-arrowdown"></i>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      <div class="container nopadding-x-md">
+        <div class="py-5" id="board"
+          style=margin-top:0>
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2015/03/04/%E7%A9%BF%E8%A1%AC%E8%A1%AB%E7%9A%84%E5%AD%A3%E8%8A%82%E5%88%B0%E4%BA%86/" target="_self">
+          穿衬衫的季节到了
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2015/03/04/%E7%A9%BF%E8%A1%AC%E8%A1%AB%E7%9A%84%E5%AD%A3%E8%8A%82%E5%88%B0%E4%BA%86/" target="_self">
+          
+          
+            
+          
+          春天，是穿衬衫的季节。
+满心欢喜的去淘宝买了几件自己心仪的衣服，一件白衬衫，一双皮鞋，一条小脚裤，准备开学之后，美美的打扮自己一下。
+不知道为什么，今年特别喜欢春天这个季节，冬天的时间太长，在家里圈四十天，生活谈不上乱，也挺有规律，只是不太正常，晚睡晚起，下午继续睡，晚上继续晚睡。不想要这样的生活，期待去学校之后能够有所改变，而最容易让人改变的东西不就是给自己换几件衣服吗？不知道这个假期身上长了多
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2015-03-04 12:47" pubdate>
+              2015-03-04
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2015/03/02/%E5%81%9A%E6%A2%A6%E5%90%A7/" target="_self">
+          做梦吧
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2015/03/02/%E5%81%9A%E6%A2%A6%E5%90%A7/" target="_self">
+          
+          
+            
+          
+          哎呀呀，一看到知乎上关于北上广深的讨论我就比较感兴趣，我决定毕业之后去深圳闯荡一下，毕竟活这么大了还没有怎么出来过，不过我觉得我不是一个愿意守候的人。
+知乎上有关于每个城市的生活体验，我所有的认知也都来自于此，每个人都会有自己不同的体验，但的确都是真实的体验。 这给我将来的选择提供了很好的例子，也真得很感谢知乎这个平台，其实我根本就是一个没有见过世面的人，只是一味的在自己想像的世界里做着自己的美梦
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2015-03-02 12:48" pubdate>
+              2015-03-02
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2015/03/01/%E6%96%B0%E5%AD%A6%E6%9C%9F%E8%AE%A1%E5%88%92/" target="_self">
+          新学期计划
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2015/03/01/%E6%96%B0%E5%AD%A6%E6%9C%9F%E8%AE%A1%E5%88%92/" target="_self">
+          
+          
+            
+          
+          新一的学期就要到来了，或许是春天的缘故，对待这学期有些许期——一年之计在于春嘛！
+首先回顾一下上学期，其实当时也订了计划，但是都完成的不咋样，唯一坚持下去的是运动，身体是革命的本钱啊。书呢，也没有读几本，关于读书，每天至少读一点吧。还有吉他，也是半途而废，主要是没有太多时间和精力去做这些事。但时间还没有被我充分利用起来，上学期最重要的事情竟然没有一点进展，就是编程了，这学期无论如何都要做点什么。其
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2015-03-01 12:48" pubdate>
+              2015-03-01
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2015/02/09/2014%EF%BC%8C%E5%86%AC%E5%A4%A9%EF%BC%8C%E5%91%8A%E5%88%AB/" target="_self">
+          2014，冬天，告别
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2015/02/09/2014%EF%BC%8C%E5%86%AC%E5%A4%A9%EF%BC%8C%E5%91%8A%E5%88%AB/" target="_self">
+          
+          
+            
+          
+          想不到什么合适的题目，只是没有来由的想写一篇日志。好久没有写过了吧，两个多月了。
+其实现在已经不是冬天了，已经立春了，但是天气还是依旧寒冷，依旧料峭。
+假期里的自己，只是努力得变得不那么懒惰，其实有时候还蛮享受这一种感觉，我想将来等我真的工作了之后，安逸的生活就再也不在了，或许装作糊涂也不是一件什么坏事。现在的生活，大概就是在家看小孩，一有时间就写我的代码，学习我想学的技术，既作为兴趣也作为我将来
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2015-02-09 12:50" pubdate>
+              2015-02-09
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2014/12/01/%E4%B8%8D%E5%9C%A8%E6%8E%8C%E6%8E%A7/" target="_self">
+          不在掌控
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2014/12/01/%E4%B8%8D%E5%9C%A8%E6%8E%8C%E6%8E%A7/" target="_self">
+          
+          
+            
+          
+          突然之间，觉得呢，生活不在掌控之中，时间不在计划，身体不受支配，大脑开始无力的拖延，简单的说就是，越来越懒了。
+天气越来越冷，是那种刺骨的寒冷，一点都不浪漫，但还是稍微有点情怀的。冬天的寒冷总能让人想起来点什么，冬天是个适合怀旧的季节，一年的最后一个季节，草木凋零，动物也都隐匿起来。所以很难看到什么新鲜的东西，人就会闲来无事，发发呆，怀怀旧，偶尔还会伤感伤感。
+为什么我最近觉得生活不在掌控之中呢？
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2014-12-01 12:51" pubdate>
+              2014-12-01
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2014/11/15/%E7%9C%8B%E8%A7%81/" target="_self">
+          看见
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2014/11/15/%E7%9C%8B%E8%A7%81/" target="_self">
+          
+          
+            
+          
+          本来计划着要回家呢，可是今天妈妈打电话过来说我如果不方便就不用回家了，她可以直接把钱打我卡上，我动摇了，原本是要回家的，可是想想如果真要回家至少一天的时间都会浪费在路上，这周末就会很快的过完了，所以，我就理所当然的选择了不回家，说到底还是因为我并不是那么的迫切的想要回家。
+晚上在宿舍，并非百无聊赖，不知怎么的心血来潮，在网易公开课上看到了柴静的书友会，让我开始对她有了真正的了解，以前的我只觉得她是
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2014-11-15 12:51" pubdate>
+              2014-11-15
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+
+
+  <nav aria-label="navigation">
+    <span class="pagination" id="pagination">
+      <a class="extend prev" rel="prev" href="/page/3/#board"><i class="iconfont icon-arrowleft"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/#board">2</a><a class="page-number" href="/page/3/#board">3</a><span class="page-number current">4</span>
+    </span>
+  </nav>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    
+      <a id="scroll-top-button" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    
+  </main>
+
+  <footer class="text-center mt-5 py-3">
+  <div class="footer-content">
+     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+  </div>
+  
+
+  
+
+  
+</footer>
+
+
+  <!-- SCRIPTS -->
+  
+  <script  src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" ></script>
+<script  src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+<!-- Plugins -->
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2.0.8/dist/clipboard.min.js" ></script>
+
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 主题的启动项 保持在最底部 -->
+<script  src="/js/boot.js" ></script>
+
+
+</body>
+</html>
