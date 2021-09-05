@@ -9,5 +9,5 @@ layout: about
 - 微信:wanghu851
 - 邮箱：tiger851@foxmail.com
 
-<div align="left"><img src="/img/weChat.png" width = "200" height = "200" alt="weChat" align=center /><div>
+<div align="left"><img src="/img/weChat.png" width = "200" height = "200" alt="weChat" align=center /></div>
 
