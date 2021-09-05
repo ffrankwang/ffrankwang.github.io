@@ -69,7 +69,7 @@ theme: fluid
 deploy:
   type: git
   repository: https://github.com/ffrankwang/ffrankwang.github.io.git
-  token: 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
+  token: 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
   branch: master
   message: update blog content.
   name: ffrankwang
