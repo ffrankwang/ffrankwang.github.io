@@ -1,0 +1,364 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=&#34;auto&#34;>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
+  <link rel="icon" href="/img/favicon.png">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="description" content="">
+  <meta name="author" content="Frank Wang">
+  <meta name="keywords" content="">
+  
+  <title>page.title - Frank的博客</title>
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.7.2/styles/github-gist.min.css" />
+    
+  
+
+  
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_kmeydafke9r.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    var CONFIG = {"hostname":"ffrankwang.github.io","root":"/","version":"1.8.11","typing":{"enable":false,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}},"search_path":"/local-search.xml"};
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+
+<body>
+  <header style="height: 60vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>Frank 的博客</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" data-toggle="modal" data-target="#modalSearch">&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;</a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner" id="banner" parallax=true
+         style="background: url('/img/default.png') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="page-header text-center fade-in-up">
+            <span class="h2" id="subtitle" title="page.title">
+              
+                page.title
+              
+            </span>
+
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      <div class="container nopadding-x-md">
+        <div class="py-5" id="board"
+          >
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+<article class="page-content">
+  <hr>
+<h1 id="Frank的简历"><a href="#Frank的简历" class="headerlink" title="Frank的简历"></a>Frank的简历</h1><hr>
+<h1 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h1><ul>
+<li>手机：15538052287 </li>
+<li>Email：<a href="mailto:&#116;&#x69;&#x67;&#x65;&#114;&#x64;&#x72;&#101;&#97;&#109;&#53;&#50;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#116;&#x69;&#x67;&#x65;&#114;&#x64;&#x72;&#101;&#97;&#109;&#53;&#50;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a></li>
+<li>微信号：wanghu851</li>
+</ul>
+<hr>
+<h1 id="个人信息"><a href="#个人信息" class="headerlink" title="个人信息"></a>个人信息</h1><ul>
+<li>王虎/男/1994 </li>
+<li>本科/计算机科学与技术</li>
+<li>工作年限：2年</li>
+<li>个人博客：<a target="_blank" rel="noopener" href="https://wanghuu.github.io/">https://wanghuu.github.io/</a></li>
+<li>Github：<a target="_blank" rel="noopener" href="https://github.com/wanghuu">https://github.com/wanghuu</a></li>
+<li>期望职位：Java软件工程师</li>
+</ul>
+<hr>
+<h1 id="自我描述"><a href="#自我描述" class="headerlink" title="自我描述"></a>自我描述</h1><p>有扎实的编程功底，代码<strong>书写规范</strong>，自学能力强，喜欢了解并使用新技术进行开发。<br>有责任心，能够适应工作上的难题和挑战，有钻研问题的执念。<br>喜欢有效率的沟通和工作。</p>
+<hr>
+<h1 id="技能清单"><a href="#技能清单" class="headerlink" title="技能清单"></a>技能清单</h1><ul>
+<li>熟练使用jsp/servlet/tomcat进行web开发</li>
+<li>熟练使用struts2/springMVC MVC框架，并对了解其原理</li>
+<li>熟悉springboot，spring cloud微服务架构，能够进行服务模块化开发</li>
+<li>熟悉Ajax/jQuery等前端技术</li>
+<li>熟练使用MySQL进行项目开发，使用Redis进行数据缓存，熟练使用MyBatis 框架进行持久层开发，了解并使用过Hibernate进行开发。</li>
+<li>熟练使用Svn/Git进行项目版本控制，现已完全使Git进行协作开发</li>
+<li>熟练使用Linux常用命令，熟悉常用软件的安装和服务的部署, 如redis，nginx,fastdfs等。</li>
+</ul>
+<hr>
+<h1 id="工作经历"><a href="#工作经历" class="headerlink" title="工作经历"></a>工作经历</h1><h2 id="高光世纪新能源科技公司-（-2017年6月-2018年4月-）"><a href="#高光世纪新能源科技公司-（-2017年6月-2018年4月-）" class="headerlink" title="高光世纪新能源科技公司 （ 2017年6月 ~ 2018年4月 ）"></a>高光世纪新能源科技公司 （ 2017年6月 ~ 2018年4月 ）</h2><h3 id="Youtil-APP"><a href="#Youtil-APP" class="headerlink" title="Youtil APP"></a>Youtil APP</h3><p>该APP是针对公司主要业务进行互联网升级的一个产品。主要功能是针对客户在进行LED灯安装过程中进行数据收集和计算，旨在打造一个一站式的能源解决方案平台。 在此项目中，我参与了系统的核心业务模块的开发，包括能源补贴的计算，LED灯具替换方案，以及平台的优化，并与第三方技术人员进行沟通协作，保证产品顺利上线。该产品的后台系统采用目前流行的SSM的架构，使用Maven进行项目管理，开发团队以gitlab作为工具进行协作开发。</p>
+<p>在随着业务需求增加之后，我们对系统后台进行了重构,将系统进行服务化的拆分。使用当前流行的spring cloud微服务架构进行开发，通过Eureka进行服务注册和发现，并加入了Hystrix断路器进行服务的熔断保护。</p>
+<p>在重构后的项目中，我主要负责用户和商品模块的开发，包括用户的登录验证，社会化登录，邮箱验证等，商品模块负责商品分类，详情，编辑等功能的开发和维护。由于该项目主要针对于美国市场，所以用到的技术集成方案主要是国外的，包括sendgrid邮件集成，google cloud 云计算，sugarCRM客户集成方案。在该项目中，我的英文文档阅读能力得到了较大的提升，对国际上最新的技术也有一定的了解。</p>
+<h2 id="农信通科技公司-（-2016年7月-2017年5月-）"><a href="#农信通科技公司-（-2016年7月-2017年5月-）" class="headerlink" title="农信通科技公司 （ 2016年7月 ~ 2017年5月 ）"></a>农信通科技公司 （ 2016年7月 ~ 2017年5月 ）</h2><h3 id="神州牧易电子商城项目"><a href="#神州牧易电子商城项目" class="headerlink" title="神州牧易电子商城项目"></a>神州牧易电子商城项目</h3><p>神州牧易是一个专门从事畜牧业投入品交易的一个平台，类似于JD商城。会员可以在商城浏览商品、下订单，以及参加各种活动。商城采用分布式系统架构，子系统之间都是调用服务来实现系统之间的通信，使用 HTTP 协议传递 JSON 数据方式实现。这样降低了系统之间的耦合度， 提高了系统的扩展性。 为了提高系统的性能使用 <strong>Redis <strong>做系统缓存，并使用 Redis 实现 Session 共享。为了保证 Redis 的性能使用 Redis 的集群。搜索功能使用</strong>solrCloud</strong> 做搜索引擎。<br>系统主要包括以下模块：</p>
+<ul>
+<li>后台管理系统： 管理商品、订单、类目、商品规格属性、用户管理以及内容发布等功能。</li>
+<li>前台系统：用户可以在前台系统中进行注册、登录、浏览商品、首页、下单等操作。</li>
+<li>会员系统：用户可以在该系统中查询已下的订单、收藏的商品、我的优惠券、团购等信息。</li>
+<li>订单系统：提供下单、查询订单、修改订单状态、定时处理订单。</li>
+<li>搜索系统：提供商品的搜索功能。</li>
+<li>单点登录系统：为多个系统之间提供用户登录凭证以及查询登录用户的信息。</li>
+</ul>
+<p>在此项目中，我参与了需求分析和项目的构建，参与了商品展示模块及搜索系统模块的开发及测试，搜索服务接口的开发。此外，还使用了Redis对项目的常用业务逻辑进行缓存处理，提高了系统的性能。能参与这个项目是我的荣幸，这让我了解了构建一个大型项目所需要的技术，也同时了解目前流行了SOA服务架构。</p>
+<h3 id="全国种子市场价格监管系统"><a href="#全国种子市场价格监管系统" class="headerlink" title="全国种子市场价格监管系统"></a>全国种子市场价格监管系统</h3><p>此项目是基于已有系统重构开发，由于旧的系统易用性较差，充满bug,所以使用了jeesite快速开发平台进行了项目的重构。我主要负责了项目的需求分析，表结构的设计，分析了以前系统中存在的一些问题，并和产品线经理进行了充分的讨论。 此项目中的一个困难点在于数据的统计和分析，由于要统计种子的品种、价格、地区等，需要进行复杂的表关系结构的设计，而且最后还需要进行存储过程的编写来进行统计结果分析。之前我对存储过程并不了解，也从没写过，但是通过网上查阅资料，能够写出实现基本功能的代码。</p>
+<h3 id="新型经营主体信息直报系统"><a href="#新型经营主体信息直报系统" class="headerlink" title="新型经营主体信息直报系统"></a>新型经营主体信息直报系统</h3><p>此项目是为了帮助政府部门统计新型经营主体的信息而开发的，新型经营主体包括家庭农场和农民合作社，由于每年都要统计这些机构的信息，政府工作人员需要耗费极大的精力。我们基于他们的这一需求设计了这样一个信息直报系统，包含了Web端和手机端（Android）。<br>在此项目中，我主要负责农民合作社模块，实现了包括登录注册，信息上报，报表导入导出，信息图表统计等功能。</p>
+<hr>
+<h1 id="致谢"><a href="#致谢" class="headerlink" title="致谢"></a>致谢</h1><p>感谢您花时间阅读我的简历，期待能有机会和您共事。</p>
+
+
+  
+</article>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    
+      <a id="scroll-top-button" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    
+  </main>
+
+  <footer class="text-center mt-5 py-3">
+  <div class="footer-content">
+     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+  </div>
+  
+
+  
+
+  
+</footer>
+
+
+  <!-- SCRIPTS -->
+  
+  <script  src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" ></script>
+<script  src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+<!-- Plugins -->
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+  
+
+
+
+
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4.3.1/anchor.min.js" ></script>
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2.0.8/dist/clipboard.min.js" ></script>
+
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 主题的启动项 保持在最底部 -->
+<script  src="/js/boot.js" ></script>
+
+
+</body>
+</html>
